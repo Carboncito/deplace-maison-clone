@@ -1,0 +1,39 @@
+.loader {
+  height: 100vh;
+  background-color: #141414;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter {
+  flex: 1;
+}
+
+.loader_porcentage_container {
+  overflow-y: hidden;
+  height: 250px;
+}
+
+.loader_porcentage {
+  font-family: 'Tt trailers',sans-serif;
+  font-size: 20vw;
+  line-height: 17vw;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader_footer {
+  margin: 30px;
+  text-align: center;
+  align-content: flex-end;
+}
+
+@media screen and (max-width: 500px) {
+  .loader_porcentage_container {
+    height: 166.29px;
+  }
+}
